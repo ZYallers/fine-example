@@ -1,0 +1,15 @@
+fine:
+  gendao:
+    mysql:
+      test2:
+        port: "3306"
+        host: "env{mysql_host}"
+        user: "env{mysql_username}"
+        password: "env{mysql_password}"
+        database: "test2"
+#        typeMapping:
+#          decimal:
+#            type: decimal.Decimal
+#            import: github.com/shopspring/decimal
+#          numeric:
+#            type: string

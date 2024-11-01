@@ -23,3 +23,12 @@ go.work.sum
 
 # env file
 .env
+
+vendor
+.idea
+log/*
+!log/README.md
+bin/*
+!bin/README.md
+doc/*
+!doc/README.md
